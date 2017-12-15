@@ -1,0 +1,81 @@
+ {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 30%;
+    margin: 1% 35% 0% 35%;
+}
+
+.coverbillede {
+    width: 100%;
+      margin-top: -1px;
+}
+
+.mig-tekst {
+    margin: 5% 0% 2% 0%;
+    font-size: 30px;
+}
+
+.mig-tekst-php {
+    font-size: 30px;
+    margin: 2% 0% 2% 0%;
+}
+
+.info-boks-tekst {
+    text-align: center;
+    color: white;
+    padding: 5%;
+    font-size: 20px;
+}
+
+.model {
+    width: 60%;
+    margin: 0% 20% 2% 20%;
+}
+
+
+.pris-billede {
+        width: 50%;
+        margin: 5% 25% 5% 25%;
+    }
+    
+.lokation {
+        width: 90%;
+        margin: 0% 5% 5% 5%;
+    }
+    
+
+.tekstboks {
+    margin: 0% 20% 0% 20%;
+    font-size: 0.8em;
+}
+
+.lokation {
+    width: 90%;
+    margin: 5% 5% 4% 5%;
+}
+
+/* Grids 3 forside */
+.row {
+    width: 100%;
+    text-align: center;
+}
+
+.column img {
+width: 30%;
+    margin: 1%;
+}
+
+/* galleri grids style */
+.galleri-side {
+    width: 100%;
+    text-align: center;
+}
+
+.galleri img {
+width: 47%;
+margin: 1%;
+}
+

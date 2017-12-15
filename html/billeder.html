@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="da">
+    
+<head>
+    <title>LashBeauty bar</title>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="base.css" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="medium.css" media="screen and (min-width: 650px)">
+
+    <link rel="stylesheet" href="large.css" media="screen and (min-width: 900px)">
+    
+    <!-- Facebook og Instagram ikoner -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Burmenu jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+
+</head>
+    
+<body>
+    <!-- logo -->
+	<a href="startside.html"><img src="billeder/logoet.svg" class="logo" alt="logo"></a>
+    
+     <!-- burgermenu - computer tilstand -->
+    <nav class="desktop">
+    <a href="startside.html" class="desktop">OM KLINIKKEN</a>
+        
+    <!-- dropdown menu -->
+    <div class="dropdown">
+        <button class="dropbtn">BEHANDLINGER</button>
+            <div class="dropdown-content">
+                <a href="lashes.html">VIPPER</a>
+                <a href="negle.html">NEGLE</a>
+                <a href="voks.html">VOKS</a>
+                <a href="hair.html">HÅR</a>
+                <a href="makeup.html">PERMANENT MAKEUP</a>
+                <a href="ansigtbehandling.html">ANSIGTS BEHANDLINGER</a>
+            </div>
+    </div>
+                <a href="#" class="desktop desktopaktiv">BILLEDER</a>
+                <a href="javascript:voied();" onClick="popIt('http://salonbook.one/?lashbeautybar')" class="desktop">ONLINE BOOKING</a>
+                <a href="login.php" class="desktop">ANMELDELSER</a>
+    </nav>
+		
+    <!-- burgermenu - mobil tilstand -->
+    <nav class="mobile">
+        <button></button>
+			<div>
+				<a href="startside.html">OM KLINIKKEN</a>
+                <p>BEHANDLINGER</p>
+                <a href="lashes.html" class="undermenu">- VIPPER</a>
+                <a href="negle.html" class="undermenu">- NEGLE</a>
+                <a href="voks.html" class="undermenu">- VOKS</a>
+                <a href="hair.html" class="undermenu">- HÅR</a>
+                <a href="makeup.html" class="undermenu">- PERMANENT MAKEUP</a>
+                <a href="ansigtbehandling.html" class="undermenu">- ANSIGTSBEHANDLINGER</a>
+				<a href="billeder.html" class="mobilaktiv">BILLEDER</a>
+                <a href="javascript:voied();" onClick="popIt('http://salonbook.one/?lashbeautybar')" class="desktop">ONLINE BOOKING</a>
+                <a href="login.php">ANMELDELSER</a>
+			</div>
+		</nav>
+    
+    <!-- Linje som adskiller menu og coverbillede -->
+    <hr>
+
+    <!-- Bileldegalleri -->
+    <div class="galleri-side"> 
+        <div class="galleri">
+            <img src="billeder/galleri1.jpg" alt="galleri">
+            <img src="billeder/galleri2.jpg" alt="galleri">
+            <img src="billeder/galleri3.jpg" alt="galleri">
+            <img src="billeder/galleri4.jpg" alt="galleri">
+            <img src="billeder/galleri5.jpg" alt="galleri">
+            <img src="billeder/galleri6.jpg" alt="galleri">
+            <img src="billeder/galleri7.jpg" alt="galleri">
+            <img src="billeder/galleri8.jpg" alt="galleri">
+            <img src="billeder/galleri9.jpg" alt="galleri">
+            <img src="billeder/galleri10.jpg" alt="galleri">
+            <img src="billeder/galleri11.jpg" alt="galleri">
+            <img src="billeder/galleri12.jpg" alt="galleri">
+            <img src="billeder/galleri13.jpg" alt="galleri">
+            <img src="billeder/galleri14.jpg" alt="galleri">
+            <img src="billeder/galleri15.jpg" alt="galleri">
+             <img src="billeder/galleri16.jpg" alt="galleri">
+            <img src="billeder/galleri17.jpg" alt="galleri">
+            <img src="billeder/galleri18.jpg" alt="galleri">
+            <img src="billeder/galleri19.jpg" alt="galleri">
+            <img src="billeder/galleri20.jpg" alt="galleri">
+            <img src="billeder/galleri21.jpg" alt="galleri">
+            <img src="billeder/galleri22.jpg" alt="galleri">
+            <img src="billeder/galleri23.jpg" alt="galleri">
+            <img src="billeder/galleri24.jpg" alt="galleri">
+            <img src="billeder/galleri25.jpg" alt="galleri">
+            <img src="billeder/galleri26.jpg" alt="galleri">
+            <img src="billeder/galleri27.jpg" alt="galleri">
+            <img src="billeder/galleri28.jpg" alt="galleri">
+            <img src="billeder/galleri29.jpg" alt="galleri">
+            <img src="billeder/galleri30.jpg" alt="galleri">
+            <img src="billeder/galleri31.jpg" alt="galleri">
+            <img src="billeder/galleri32.jpg" alt="galleri">
+            <img src="billeder/galleri33.jpg" alt="galleri">
+           
+        </div>
+    </div> 
+    
+    <footer>
+        
+    <!-- Instagram og Facebook ikoner som links -->
+    <a href="javascript:voied();" onClick="popIt('https://www.instagram.com/lashbeautybar.dk/')"><i class="fa fa-instagram" style="font-size:70px"></i></a>
+    <a href="javascript:voied();" onClick="popIt('https://www.facebook.com/lashbyheart/?fref=ts')"><i class="fa fa-facebook-f" style="font-size:68px"></i></a>
+        
+    <p>LashBeauty bar - Copyright © All Rights Reserved</p>
+   
+
+    </footer>
+
+
+    
+<!-- Burgermenu -->
+<script src="burgermagic.js"></script>
+    
+<!-- Javascript, får links til at åbne i ny browser -->
+<script src="javascript.js"></script>
+
+</body>
+
+     
+</html>

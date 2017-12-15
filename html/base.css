@@ -1,0 +1,427 @@
+/* MENU OG BODY STYLE */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 36%;
+    margin: 1% 32% 0% 32%;
+}
+
+.coverbillede {
+    width: 100%;
+      margin-top: -1px;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #E8699C;
+}
+
+
+/* Burgermenu / Almindelig menu */
+
+.mobile {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+    z-index: 1;
+}
+  .mobile button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 30px;
+    width: 30px;
+    background: url("burgermenu.svg") center no-repeat;
+    background-color: #eee;
+    background-size: 93%;
+    border: 1px solid #BABABA;
+    border-radius: 3px;
+    transition: 400ms ease-in; }
+  .mobile div {
+    display: none; }
+  .mobile a {
+    display: block; }
+ .mobile p {
+    display: block; }
+
+.mobile button.expanded {
+  transform: rotate(-90deg); }
+
+.mobile a {
+  background-color: #eee;
+  text-align: center;
+  color: #505050;
+  padding: 10px;
+  text-decoration: none;
+  border-bottom: 1px solid #ddd; }
+  .mobile a:hover {
+    color: #E8699C; }
+
+.mobile p {
+  background-color: #eee;
+  text-align: center;
+  color: #505050;
+  padding: 10px;
+  text-decoration: none;
+  border-bottom: 1px solid #ddd; }
+  .mobile a:hover {
+    color: #E8699C; }
+
+.mobile .mobilaktiv {
+    color: #E8699C;
+}
+
+.desktop .desktopaktiv {
+    color: #E8699C;
+}
+
+.desktop {
+    width: 100%;
+    box-sizing: border-box; 
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 12px 5px 12px;
+    color: #504e4f;
+    text-align: center; 
+    font-size: 17px;
+}
+
+
+@media (max-width: 800px) {
+  .mobile {
+    display: block; }
+
+  .desktop {
+    display: none; } 
+
+}
+
+.undermenu {
+    font-size: 0.8em;
+}
+
+
+/* DROPDOWN MENU */
+
+.dropbtn {
+    color: #504e4f;
+    font-size: 16px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 12px 5px 12px;
+    font-family: helvetica, arial, sans-serif;
+}
+
+/* dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links i dropdown */
+.dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+    background-color: #eee;
+    color: #505050;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid #ddd;
+}
+
+/* links hover */
+.dropdown-content a:hover {color: #E8699C}
+
+/* Vis dropdown hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* dropdown hover baggrundsfarve */
+.dropdown:hover .dropbtn {
+    color: #E8699C;
+}
+
+ /* HJEMMESIDE DESIGN */
+
+
+.tekstboks {
+    margin: 0% 10% 5% 10%;
+    font-size: 0.8em;
+}
+
+.info-boks {
+    width: 100%;
+    background-color: #DB919A; 
+    margin-top: -5px;
+    margin-bottom: 5%;
+    
+}
+
+.info-boks-forside {
+    width: 100%;
+    background-color: #DB919A; 
+    margin-top: -5px;
+    margin-bottom: 5%;
+    
+}
+
+.info-boks-tekst {
+    text-align: center;
+    color: white;
+    padding: 5%;
+}
+
+.specieltekst {
+    color: #E8699C;
+}
+
+.mig-tekst-php {
+    color: #E8699C;
+    text-align: center;
+    font-size: 25px;
+    margin: 5% 0% 5% 0%;
+}
+
+.mig-tekst {
+    color: #E8699C;
+    text-align: center;
+    font-size: 25px;
+    margin: 0% 0% 5% 0%;
+}
+
+.tekst2 {
+    color: #E8699C;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.overskrift{
+    color: #E8699C;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.model {
+    width: 80%;
+    margin: 0% 10% 5% 10%;
+}
+
+.model2 {
+    width: 80%;
+    margin: 0% 10% 9% 10%;
+}
+
+
+.booking {
+    border: #504e4f 2px solid;
+    text-align: center;
+    width: 30%;
+    margin: 0% 35% 0% 35%;
+    padding: 4px;
+    color: #504e4f;
+    background-color: #eaa4a4;
+    
+}
+
+/* Grids forside */
+
+.row {
+    width: 100%;
+    text-align: center;
+}
+
+.column img {
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+/* Galleri grids style */
+
+.galleri-side {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.galleri img {
+width: 80%;
+margin: 1%;
+}
+
+.tekstboks2 {
+        margin: 0% 10% 5% 10%;
+    font-size: 0.8em;
+    }
+    
+.pris-billede {
+        width: 60%;
+        margin: 5% 20% 5% 20%;
+    }
+    
+.lokation {
+        width: 90%;
+        margin: 0% 5% 2% 5%;
+    }
+
+footer {
+        background-color: #DB919A;
+        width: 100%;
+        text-align: center;
+        padding: 1% 0% 1% 0%;
+    }
+    
+footer a:hover {
+    color: white;
+}
+
+footer a {
+    padding: 0px 40px;
+}
+    
+footer p {
+    text-align: center;
+    margin-top: 1%;
+}
+
+footer a {
+    padding: 0px 20px;
+}
+
+.book {
+    width: 40%;
+}
+
+.book-knap {
+    width: 150px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #E8699C;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.book-knap a {
+    color: white;
+}
+.book-knap:hover {
+    letter-spacing: 2px;
+}
+
+/* Anmeldelser PHP */
+
+li {
+	list-style: none;
+}
+
+.login-boks {
+	width: 60%;
+	height: 50px;
+	margin: 0% 20% 2% 20%;
+	border: 1px solid #000;
+	text-align: center;
+	font-size: 0.8em;
+	border-radius: 7px;
+	
+}
+
+.post-boks {
+	width: 60%;
+	height: 80px;
+	margin: 0% 20% 2% 20%;
+	border: 1px solid #000;
+	text-align: center;
+	font-size: 0.8em;
+	border-radius: 7px;
+	
+}
+
+.create {
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-evenly;
+	
+}
+
+
+.knap {
+	width: 60%;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 0%;
+	display: block;
+	border: 1px solid #000;
+	border-radius: 7px;
+	font-size: 1.2em;	
+	color: white;
+	background-color: #DB919A;
+	
+}
+
+.postit {
+	width: 100%;
+	background-color: #F5BDBB;
+	border: black 1px solid;
+	margin: 1%;
+	font-size: 0.8em;
+	border-radius: 7px;
+	padding: 10px;
+}
+
+.headline {
+	font-weight: bold;
+	font-size: 1.2em;
+	
+}
+
+.name {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+ h3 {
+	text-align: center;
+}
+
+.anmeldelse {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.klik {
+	text-align: center;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+

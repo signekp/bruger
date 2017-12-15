@@ -1,0 +1,173 @@
+.logo {
+    width: 20%;
+    margin: 2% 40% 1% 40%;
+}
+
+.tekstboks {
+    margin: 2% 5% 5% 0%;
+    font-size: 1em;
+}
+
+.tekstboks2 {
+    margin: 0% 20% 3% 20%;
+    font-size: 1em;
+}
+
+.vipper-billede {
+    width: 100%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.model {
+    width: 90%;
+    margin: 2% 5% 0% 5%;
+}
+
+.mig-tekst {
+    color: #E8699C;
+    margin: 3% 0% 2% 0%;
+
+}
+
+.mig-tekst-php {
+    color: #E8699C;
+    margin: 3% 0% 3% 0%;
+}
+
+.model2 {
+    width: 80%;
+    margin: 0% 5% 9% 5%;
+}
+
+.info-boks {
+    width: 100%;
+    background-color: #DB919A; 
+    margin-top: -5px;
+    margin-bottom: 3%;
+    
+}
+
+.info-boks-forside {
+    width: 100%;
+    background-color: #DB919A; 
+    margin-top: -5px;
+    margin-bottom: 1%;
+    
+}
+
+.info-boks-tekst {
+    text-align: center;
+    color: white;
+    padding: 3%;
+    font-size: 32px;
+}
+
+.row {
+    width: 100%;
+    text-align: center;
+}
+
+.column img {
+width: 23%;
+}
+
+.galleri-side {
+    width: 100%;
+    text-align: center;
+}
+
+.galleri img {
+width: 31%;
+margin: 1%;
+}
+
+.galleri p {
+    width: 30%;
+}
+
+.forside {
+    width: 100%;
+    text-align: center;
+}
+
+.kontakt img {
+width: 29%;
+margin: 2%;
+}
+
+
+
+.grid {
+	width: 100%;
+	max-width: 1140px;
+	min-width: 899px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.col-1-2 {
+	float: left;
+  	min-height: 1px;
+    width: 50%;
+    float: left;
+  	min-height: 1px;
+}
+
+.push-1-2 {
+	margin-left: 50%;
+}
+
+.grid,
+.col-1-2,
+.grid:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+
+.lokation {
+    width: 60%;
+    margin: 2% 20% 2% 20%;
+}
+
+/* Anmeldelser PHP */
+
+li {
+	list-style: none;
+}
+
+.login-boks {
+	width: 26%;
+	height: 50px;
+	margin: 0% 37% 1% 37%;
+}
+
+.post-boks {
+	width: 26%;
+	height: 100px;
+	margin: 0% 37% 1% 37%;
+}
+
+.postit {
+	width: 45%;
+	border: black 1px solid;
+	border-radius: 7px;
+	
+	
+}
+
+
+.knap {
+	width: 26%;
+	height: 50px;
+	margin: 0% 37% 1% 37%;
+}
+
+.container {
+	display: flex;
+	justify-content: space-even;
+	flex-wrap: wrap;
+}
+
